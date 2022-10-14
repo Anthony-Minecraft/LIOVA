@@ -264,7 +264,7 @@ function Commandline(commandInput, should)
         io.write("   Not updating. Try 'update -yes' to update")
       end
     elseif string.find(command[1], "game") then
-      local game = require("game")
+      local game = require("./game/game")
       if command[2] ~= nil and string.find(command[2], "save") then
         game.runFrom(command[3])
       else
