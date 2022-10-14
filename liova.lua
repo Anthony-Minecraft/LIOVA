@@ -1,5 +1,5 @@
 io.write("\27[0;32mStarting LIOVA Envirement\27[0m\n\27[0;31m[WARNING: LIOVA is build and tested on modern Ubuntu Terminals. If your Terminal does not allow for ASCII Escape Codes, then you will get unpredicted outputs. If your Terminal is not Ubuntu, then Network interfacing and file management will not work.]\27[0m\n")
-local debug = true
+local debug = false
 --Start the loading
 --function for if a file exists, e.g. for seting up first times
 function FileExists(name)
