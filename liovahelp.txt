@@ -1,0 +1,18 @@
+   help: brings up this menu
+   bye: exits LIOVA
+   variable [method] <key> <value> ... : creates, reads the variables set by the user. 
+      [methods]
+      make <key> <value> ... : creates a varible with the key <key> and the value of all the <values>
+      read <key>: gets the value of the key <key>.
+      list: gets all of the stored variables
+      concat: <key> <value> ... : creates a new variable from many words. exact same functionality of create
+      [note] to access your variable when inputing a command, use &#<key>
+   function [method] <name> <function>: handles the requirements and running of other lua functions.
+      [methods]
+      require <name>: add a lua file to be used
+      do <function>: run a function
+      list: get all the files that are imported
+   say <phrase>: does exactly what it implies, it will output the string you supply
+   for <list> as <variable name> do [modifier] <function>: Run a command for each of the elements of the list, and replace the variable name with the varaible in the list.
+   [modifiers]
+      -c: allows for you to run a command from the LIOVA terminal
